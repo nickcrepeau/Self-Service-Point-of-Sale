@@ -5,7 +5,7 @@ This application is a point-of-sale program for a self service check out machine
 <img src="https://github.com/user-attachments/assets/dee261c2-e2ad-4b28-8820-15b422047a69" width="600">
 
 ## Example video
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/gT5bKg5IO3s/0.jpg)](https://www.youtube.com/watch?v=gT5bKg5IO3s)
+[![Link to YouTube](https://github.com/user-attachments/assets/ce9971c3-d0e3-4022-8910-f36999c5dbbd)](https://www.youtube.com/watch?v=gT5bKg5IO3s)
 
 ## Behind the scenes
 The program was created in C++ utilizing Visual Studio as a Win32 application, also known as the Windows API. As such, the program runs on a Microsoft Windows computer. The program interfaces with an SQL database by the name of PointOfSale containing three tables: Products, System, and Users.
@@ -17,4 +17,3 @@ The program only uses the first row in each column to store information used by 
 ID acts a primary key for each user.
 ### Products table
 ![image](https://github.com/user-attachments/assets/23fa097d-2bea-4fb1-8f8c-7db3ecfd7ad7)
-
