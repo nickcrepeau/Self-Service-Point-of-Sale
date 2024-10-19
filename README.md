@@ -1,5 +1,5 @@
 # Self Service Point of Sale
-This application is a point-of-sale program for a self service check out machine operated by a customer to ring up and pay for their items in a grocery store. The interface was designed with big buttons to be touch screen friendly, and has very few commands. Every item in the database can we looked up using the “Lookup” button or entered using the “Enter Item #” button. Clicking “Remove Item” will prompt for an employee login to authorize the void. There is also a “Manager Options” menu to track the cash balance, tax rate, and card charges that have occurred since the program initialized. When the user selects “Pay” they can choose either a Cash or Card transaction, and this is added to the System database to keep a total of all transactions of each type since the program was last started.  
+This application is a point-of-sale program for a self service check out machine operated by a customer to ring up and pay for their items in a grocery store. The interface was designed with big buttons to be touch screen friendly, and has very few commands. Every item in the database can we looked up using the “Lookup” button or entered using the “Enter Item #” button. Clicking “Remove Item” will prompt for an employee login to authorize the void. There is also a “Manager Options” menu to track the cash balance, tax rate, and card charges that have occurred since the program initialized. When the user selects “Pay” they can choose either a “Cash” or “Card” transaction, and this is added to the System database to keep a total of all transactions of each type since the program was last started.  
 
 ## Main Screen Example
 <img src="https://github.com/user-attachments/assets/dee261c2-e2ad-4b28-8820-15b422047a69" width="800">
@@ -19,5 +19,5 @@ The program only uses the first row in each column to store information used by 
 ID acts a primary key for each user.
 
 ### Products table
-![image](https://github.com/user-attachments/assets/23fa097d-2bea-4fb1-8f8c-7db3ecfd7ad7)
+![image](https://github.com/user-attachments/assets/23fa097d-2bea-4fb1-8f8c-7db3ecfd7ad7)  
 Code acts as a primary key for each product, representing a barcode or PLU.
