@@ -9,11 +9,15 @@ This application is a point-of-sale program for a self service check out machine
 
 ## Behind the scenes
 The program was created in C++ utilizing Visual Studio as a Win32 application, also known as the Windows API. As such, the program runs on a Microsoft Windows computer. The program interfaces with an SQL database by the name of PointOfSale containing three tables: Products, System, and Users.
+
 ### System table
 ![image](https://github.com/user-attachments/assets/4332aadb-06e1-4e61-826f-d7daee5b6952)  
 The program only uses the first row in each column to store information used by the system.
+
 ### Users table
 ![image](https://github.com/user-attachments/assets/ee6f1895-4fd0-47b5-a940-3cf4b100d5be)  
 ID acts a primary key for each user.
+
 ### Products table
 ![image](https://github.com/user-attachments/assets/23fa097d-2bea-4fb1-8f8c-7db3ecfd7ad7)
+Code acts as a primary key for each product, representing a barcode or PLU.
